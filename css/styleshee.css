@@ -1,12 +1,14 @@
-
-
-
-
 .topNavigation {
   width: 100%;
   background: #be3144;
   color: white;
   margin-bottom: 0%;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
 }
 .about, 
 .work, 
@@ -17,14 +19,16 @@
 
 .front {
   height: 300px;
-  background-color: black;
-  margin-top: 0%;
-
+  background-color: rgb(50, 50, 50);
+  margin-top: 150px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
 .mainPage {
   display: inline-block;
-  font-size: xx-large;
+  font: size 100px;
   color: white;
 }
 
@@ -32,4 +36,34 @@
   color: white;
 }
 
+.para1{
+  font:size 50px;
+  align-content: center;
+  font-style: italic;
+  color: #be3144;
+  font-family: 'Poppins', sans-serif;
+}
 
+.para2{
+  font:size 50px;
+  align-content: center;
+  font-style: italic;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.projects {
+  height: 300px;
+  background-color: rgb(42, 84, 147);
+  text-align: center;
+  padding:1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer_portfolio {
+  height: 300px;
+  background-color: rgb(50, 50, 50);
+  text-align: center;
+  padding:1rem;
+  font-family: 'Raleway', sans-serif;
+}
