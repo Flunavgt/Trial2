@@ -1,0 +1,35 @@
+
+
+
+
+.topNavigation {
+  width: 100%;
+  background: #be3144;
+  color: white;
+  margin-bottom: 0%;
+}
+.about, 
+.work, 
+.contact {
+  color: white;
+  font-size: x-large;
+}
+
+.front {
+  height: 300px;
+  background-color: black;
+  margin-top: 0%;
+
+}
+
+.mainPage {
+  display: inline-block;
+  font-size: xx-large;
+  color: white;
+}
+
+.below{
+  color: white;
+}
+
+
