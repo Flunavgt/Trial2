@@ -1,8 +1,13 @@
+
+
+
+
 .topNavigation {
-  width: 100%;
+  width: 97.7%;
   background: #be3144;
   color: white;
   margin-bottom: 0%;
+ 
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -10,25 +15,27 @@
   left: 0;
   padding: 20px;
 }
+
+
 .about, 
 .work, 
 .contact {
-  color: white;
+  color: rgb(15, 19, 241);
   font-size: x-large;
+  width: 150px;
+  padding-inline: 20px;
 }
 
 .front {
   height: 300px;
-  background-color: rgb(50, 50, 50);
-  margin-top: 150px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  text-align: center;
+  background-color: black;
+  margin-top: 0%;
+
 }
 
 .mainPage {
   display: inline-block;
-  font: size 100px;
+  font-size: xx-large;
   color: white;
 }
 
