@@ -27,17 +27,21 @@
 }
 
 .front {
-  height: 300px;
-  background-color: black;
+  height: 800px;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   margin-top: 0%;
 
 }
 
 .mainPage {
-  display: inline-block;
-  font-size: xx-large;
   color: white;
+  font-size: 70px;
+  font-family: raleway, sans-serif;
+  text-align: center;
+  padding-top: 180px;
 }
+ 
 
 .below{
   color: white;
@@ -48,6 +52,7 @@
   align-content: center;
   font-style: italic;
   color: #be3144;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -60,11 +65,22 @@
 }
 
 .projects {
-  height: 300px;
+  height: 800px;
   background-color: rgb(42, 84, 147);
   text-align: center;
   padding:1rem;
   font-family: 'Raleway', sans-serif;
+}
+
+.proList {
+  width: 300px;
+  display: inline-block;
+  
+}
+
+.tribute {
+  width: 300px;
+  display: block;
 }
 
 .footer_portfolio {
